@@ -1,0 +1,6 @@
+text = input('matn ra vared konid : ')
+textSplit = input('matn  ba ch reshte joda shvad : ')
+textJoin = input('matn ba ch rashte vasl shavad : ')
+matn = text.split(textSplit)
+matn = textJoin.join(matn)
+print(matn)
